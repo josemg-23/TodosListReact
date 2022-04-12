@@ -4,6 +4,11 @@ import Todos from "./list.jsx";
 
 //create your first component
 const Lista = () => {
-	<div>{Todos}</div>;
+	return (
+		<div>
+			<h1>ToDos List</h1>
+			<ul>{Todos}</ul>
+		</div>
+	);
 };
 export default Lista;
