@@ -10,7 +10,7 @@ const Todos = () => {
 	return (
 		<ul>
 			{tasks.map((item) => (
-				<ListItem item={itemText} />
+				<ListItem itemValue={itemText} />
 			))}
 		</ul>
 	);
